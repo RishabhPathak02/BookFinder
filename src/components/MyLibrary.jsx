@@ -8,8 +8,8 @@ function MyLibrary() {
   const [toast, setToast] = useState({ msg: "", type: "" });
   const [username, setUsername] = useState("");
   const token = localStorage.getItem("token");
-  const BACKEND_URL = "http://localhost:5000/api/library";
-  const BACKEND_USER = "http://localhost:5000/api/me";
+  const BACKEND_URL = "https://bookfinder-backend-1.onrender.com/api/library";
+  const BACKEND_USER = "https://bookfinder-backend-1.onrender.com/api/me";
 
   // Toast helper
   const showToast = (msg, type = "success") => {
@@ -71,7 +71,7 @@ function MyLibrary() {
   const handleLogout = () => {
     localStorage.removeItem("token");
     localStorage.removeItem("username");
-    window.location.href = "/"; // redirect to login page
+    window.location.href = "/"; 
   };
 
   return (
