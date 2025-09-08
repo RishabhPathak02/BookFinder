@@ -103,7 +103,6 @@ export default function Bookfinder() {
       showToast("You must sign in to save books!", "error");
       return;
     }
-
     if (library.some((b) => b.key === book.key)) {
       showToast("Book already in library!", "error");
       return;
