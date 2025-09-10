@@ -24,7 +24,7 @@ It lets users search books via the Open Library API, save them to their personal
 * [React 18](https://react.dev/) – Component-based frontend
 * [React Router DOM](https://reactrouter.com/) – Client-side routing
 * [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
-* [shadcn/ui](https://ui.shadcn.com/) – Prebuilt accessible UI components
+
 
 ### APIs
 
@@ -34,7 +34,6 @@ It lets users search books via the Open Library API, save them to their personal
 ### Other
 
 * [Lucide Icons](https://lucide.dev/) – Modern SVG icons
-* [Framer Motion](https://www.framer.com/motion/) *(optional)* – Smooth animations
 
 ---
 
